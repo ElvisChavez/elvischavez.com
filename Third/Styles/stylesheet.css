@@ -83,6 +83,7 @@ body {
 .top-bar {
 	width: 100%;
 	text-align: center;
+	padding: 2em;
 }
 
 h1 {
@@ -100,6 +101,7 @@ ul li {
 
 
 .main {
+	padding: 5em;
 	width: 100%;
 	clear: both;
 }
@@ -115,7 +117,7 @@ ul li {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 100px;
+    height: px;
     width: 100%;
 }
 
