@@ -120,9 +120,29 @@ ul li {
 	margin: 0 auto;
 	padding: 2em;
 	text-align: left;
-	border: solid 1px;
+	border: solid 2px;
+	border-radius: 2px;
+
 }
 
+.social-icons {
+	position: relative;
+	text-align: center;
+	max-width: 50%;
+	margin: 0 auto;
+	padding-top: 4em;
+	
+}
+
+.github {
+	position: absolute;
+	left: 0;
+}
+
+.twitter {
+	position: absolute;
+	right: 0;
+}
 
 .footer {
     position: absolute;
@@ -149,8 +169,15 @@ body {
 }
 
 
+/*
+  ========================================
+	Buttons
+  ========================================
+*/
+
+
 ul li {
-	border-radius: 5px;
+	border-radius: 2px;
   	height: 35px;
   	border: 0;
  	padding: 5px 10px;
@@ -177,5 +204,11 @@ ul li {
 .about p {
 	line-height: 250%;
 	text-indent: 50px;
+}
+
+.footer a:link, a:visited {
+
+	color: #D66853; 
+	text-decoration: none;
 }
 
