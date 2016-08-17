@@ -122,6 +122,7 @@ ul li {
 	text-align: left;
 	border: solid 2px;
 	border-radius: 2px;
+	border-color: #D66853;
 
 }
 
@@ -164,8 +165,8 @@ ul li {
 body {
 	background-color: #11151C;
 	color: #7D4E57;
-    line-height: 170%;
-    font-family: sans-serif;
+    
+   
 }
 
 
@@ -176,15 +177,6 @@ body {
 */
 
 
-ul li {
-	border-radius: 2px;
-  	height: 35px;
-  	border: 0;
- 	padding: 5px 10px;
-  	background-color: #D66853;
-  	color: black;
-}
-
 
 /*
   ========================================
@@ -192,13 +184,23 @@ ul li {
   ========================================
 */
 
+body {
+	font-family: 'Hind Guntur', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-weight: 700;
+	font-style: bold;
+	font-size: 45px;
+}
 
  h1, ul, .footer {
 	color: #D66853;
 } 
 
 .footer {
-	text-decoration: none;
+	font-size: 14px;
 }
 
 .about p {
@@ -212,3 +214,14 @@ ul li {
 	text-decoration: none;
 }
 
+
+
+/*
+  ========================================
+	Resume
+  ========================================
+*/
+
+.resume {
+	clear: both;
+}
