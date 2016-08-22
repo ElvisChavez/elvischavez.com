@@ -96,6 +96,7 @@ h1 {
 ul {
 	width: 50%;
 	margin: 0 auto;
+	padding-top: 4em;
 }
 
 ul li {
@@ -223,5 +224,7 @@ h1 {
 */
 
 .resume {
+	padding: 10em;
+	width: 100%;
 	clear: both;
 }
