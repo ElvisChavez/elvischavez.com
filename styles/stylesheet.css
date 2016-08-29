@@ -223,11 +223,9 @@ h1 {
   ========================================
 */
 
-<<<<<<< HEAD
 .resume {
-	padding: 10em;
-	width: 100%;
-	clear: both;
+	margin: 0 auto;
+	margin: 4em;
+	background-color: white;
 }
-=======
->>>>>>> 410f33488b5601374baf02b24bc122b859ce0f77
+
