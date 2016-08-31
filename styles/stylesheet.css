@@ -231,20 +231,29 @@ h1 {
 
 /*
   ========================================
-	Resume
+	Project
   ========================================
 */
 
 .wrapper-project {
 	width: 100%;
+	padding: 5em;
+
 }
 
 .project {
 	float: left;
-	width: 30%;
+	min-width: 30%;
+	min-height: 320px;
 	margin: 0 1.5%;
+	padding-top: 1em;
+	font-size: 100px;
+	text-align: center;
 	border: solid 2px;
 	border-radius: 2px;
 	border-color: #D66853;
 }
 
+.top-bar a:link, a:visited {
+	text-decoration: none;
+}
