@@ -223,10 +223,16 @@ h1 {
   ========================================
 */
 
-.resume {
+.resume-wrapper {
+	width: 100%
+}
+
+.objective, .sagitta {
+	max-width: 50%;
 	margin: 0 auto;
-	margin: 4em;
 	background-color: white;
+	padding: 4em;
+
 }
 
 /*
