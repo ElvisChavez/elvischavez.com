@@ -227,11 +227,21 @@ h1 {
 	width: 100%
 }
 
-.objective, .sagitta {
+.resume-wrapper h2 {
 	max-width: 50%;
-	margin: 0 auto;
-	background-color: white;
-	padding: 4em;
+	min-width: 50%;
+	margin: 2em auto;
+}
+
+.sagitta, .sms, .teleplan {
+	max-width: 50%;
+	min-width: 50%;
+	margin: 4em auto;
+	padding: 2em;
+	background-color: #D66853; 
+	line-height: 2;
+	color: black;
+	border-radius: 2px;
 
 }
 
