@@ -165,18 +165,8 @@ ul li {
 
 body {
 	background-color: #11151C;
-	color: #7D4E57;
-    
-   
+	color: #7D4E57;  
 }
-
-
-/*
-  ========================================
-	Buttons
-  ========================================
-*/
-
 
 
 /*
@@ -209,7 +199,7 @@ h1 {
 	text-indent: 50px;
 }
 
-.footer a:link, a:visited {
+.footer, h1, ul a:link, a:visited {
 
 	color: #D66853; 
 	text-decoration: none;
