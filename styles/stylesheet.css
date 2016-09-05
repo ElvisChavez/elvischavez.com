@@ -87,19 +87,19 @@ body {
 	text-align: center;
 }
 
-h1 {
+.title {
 	float: left;
 	position: absolute;
 	margin-left: 2em;
 }
 
-ul {
+.nav {
 	width: 50%;
 	margin: 0 auto;
 	padding-top: 4em;
 }
 
-ul li {
+.nav li {
 	display: inline-block;
 	width: 80px;
 	margin-left: 20px;
@@ -180,15 +180,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
+.title {
 	font-weight: 700;
 	font-style: bold;
 	font-size: 45px;
 }
 
- h1, ul, .footer {
-	color: #D66853;
+.title
+.nav 
+.footer 
+a:link {
+ 	color: #D66853;
 } 
+
 
 .footer {
 	font-size: 14px;
@@ -197,12 +201,6 @@ h1 {
 .about p {
 	line-height: 250%;
 	text-indent: 50px;
-}
-
-.footer, h1, ul a:link, a:visited {
-
-	color: #D66853; 
-	text-decoration: none;
 }
 
 
@@ -230,7 +228,7 @@ h1 {
 	padding: 2em;
 	background-color: #D66853; 
 	line-height: 2;
-	color: black;
+	color: black;z
 	border-radius: 2px;
 
 }
@@ -260,6 +258,3 @@ h1 {
 	border-color: #D66853;
 }
 
-.top-bar a:link, a:visited {
-	text-decoration: none;
-}
