@@ -138,12 +138,12 @@ body {
 
 .github {
 	position: absolute;
-	left: 0;
+	left: 3em;
 }
 
-.twitter {
+.linkedin {
 	position: absolute;
-	right: 0;
+	right: 3em;
 }
 
 .footer {
@@ -186,12 +186,19 @@ body {
 	font-size: 45px;
 }
 
-.title
-.nav 
-.footer 
-a:link {
+.nav, .footer, .title {
  	color: #D66853;
 } 
+
+
+a:visited, 
+a:link, 
+a:active
+.nav .footer .title {
+	text-decoration: none;
+	color: #D66853;
+}
+
 
 
 .footer {
